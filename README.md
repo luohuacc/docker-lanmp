@@ -12,7 +12,7 @@
 ### 第二步，获取项目代码
 
 ```
-https://github.com/luohuacc/docker-lanmp
+git clone https://github.com/luohuacc/docker-lanmp
 ```
 
 ### 第三步，启动运行
