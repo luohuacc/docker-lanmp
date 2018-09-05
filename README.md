@@ -1,6 +1,6 @@
 # 使用 Docker 快速搭建 lanmp 环境
 
-运行环境集成了apache + nginx + mysql + mysql
+运行环境集成了apache + nginx + mysql + php
 
 ### 第一步，准备环境
 - window 推荐用win10操作系统， 并且有hyper-v虚拟机的功能, 添加hyper-v的路径，控制面板\程序
