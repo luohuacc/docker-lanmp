@@ -81,6 +81,7 @@ docker-compose exec php72 php -v   //使用php72服务的php命令行工具
 
 ## 目录结构
 
+```markdown
 conf   配置文件的目录，包括
 conf/apache/extra/httpd-vhosts.conf 配置虚拟主机的文件
 conf/apache/extra/httpd-ssl.conf 配置https的主机的文件
@@ -95,4 +96,4 @@ log  日志目录
 mysql mysql的数据存放目录 
 portainer docker的gui管理工具  （localhost:9000）
 
-
+```
