@@ -52,7 +52,7 @@ services:
       - "9000"
     volumes:
       - ${WORKSPACES}:/var/www/html/:rw
-      - ./conf/php/php72.ini:/usr/local/etc/php/php.ini:ro
+      - ./conf/php/php72.ini:/usr/local/etc/php/php.ini:rw
       - ./conf/php/php-fpm.d/www72.conf:/usr/local/etc/php-fpm.d/www.conf:rw
       - ./log/php-fpm/:/var/log/php-fpm/:rw
       - /etc/localtime/:/etc/localtime
